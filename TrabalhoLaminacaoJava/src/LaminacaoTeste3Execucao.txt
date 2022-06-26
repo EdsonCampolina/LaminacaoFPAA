@@ -1,0 +1,74 @@
+Incio alogritmo guloso!
+Iniciando redução da lâmina de largura = 20
+Lamina reduziu 3MM, custo total da reducao = 3
+Nova largura = 17
+Lamina reduziu 3MM, custo total da reducao = 9
+Nova largura = 14
+Lamina reduziu 3MM, custo total da reducao = 18
+Nova largura = 11
+Lamina reduziu 1MM, custo total da reducao = 23
+Nova largura = 10
+Lamina reduziu 1MM, custo total da reducao = 28
+Nova largura = 9
+Lamina reduziu 1MM, custo total da reducao = 33
+Nova largura = 8
+Lamina reduziu 1MM, custo total da reducao = 38
+Nova largura = 7
+Lamina reduziu 1MM, custo total da reducao = 44
+Nova largura = 6
+Lamina reduziu 1MM, custo total da reducao = 50
+Nova largura = 5
+Lamina reduziu 1MM, custo total da reducao = 57
+Nova largura = 4
+Lâmina reduzida com sucesso!
+Custo total da operação = 57
+Número de reduções realizadas = 10
+Fim algoritmo guloso!
+
+
+
+Iniciando execução da programação dinâmica!
+1   2   3   X    X    X    X    X    X    X    X    X    X    X    X    X    
+
+1   2   3   5   X    X    X    X    X    X    X    X    X    X    X    X    
+
+1   2   3   5   7   X    X    X    X    X    X    X    X    X    X    X    
+
+1   2   3   5   7   9   X    X    X    X    X    X    X    X    X    X    
+
+1   2   3   5   7   9   12   X    X    X    X    X    X    X    X    X    
+
+1   2   3   5   7   9   12   15   X    X    X    X    X    X    X    X    
+
+1   2   3   5   7   9   12   15   18   X    X    X    X    X    X    X    
+
+1   2   3   5   7   9   12   15   18   24   X    X    X    X    X    X    
+
+1   2   3   5   7   9   12   15   18   24   31   X    X    X    X    X    
+
+1   2   3   5   7   9   12   15   18   23   30   35   X    X    X    X    
+
+1   2   3   5   7   9   12   15   18   23   28   35   42   X    X    X    
+
+1   2   3   5   7   9   12   15   18   23   28   33   41   50   X    X    
+
+1   2   3   5   7   9   12   15   18   23   28   33   38   48   56   X    
+
+1   2   3   5   7   9   12   15   18   23   28   33   38   44   53   63   
+
+1   2   3   5   7   9   12   15   18   23   28   33   38   44   50   60   
+
+1   2   3   5   7   9   12   15   18   23   28   33   38   44   50   57   
+
+Melhor valor via programação dinâmica é 57
+Programação dinâmica finalizada!
+
+
+Procurando valor via BackTracking
+Melhor valor encontrado via backtracking: 57
+
+
+
+Tempo de execução do algoritmo guloso em nanossegundos = 1934700
+Tempo de execução da programação dinâmica em nanossegundos = 2196800
+Tempo de execução do backtracking em nanossegundos = 12429099

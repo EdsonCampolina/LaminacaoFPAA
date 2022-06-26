@@ -1,0 +1,42 @@
+Incio alogritmo guloso!
+Iniciando redução da lâmina de largura = 10
+Lamina reduziu 3MM, custo total da reducao = 8
+Nova largura = 7
+Lamina reduziu 1MM, custo total da reducao = 12
+Nova largura = 6
+Lamina reduziu 1MM, custo total da reducao = 17
+Nova largura = 5
+Lamina reduziu 1MM, custo total da reducao = 24
+Nova largura = 4
+Lâmina reduzida com sucesso!
+Custo total da operação = 24
+Número de reduções realizadas = 4
+Fim algoritmo guloso!
+
+
+
+Iniciando execução da programação dinâmica!
+4   6   8   X    X    X    
+
+4   6   8   13   X    X    
+
+4   6   8   13   18   X    
+
+4   6   8   12   18   24   
+
+4   6   8   12   17   24   
+
+4   6   8   12   17   24   
+
+Melhor valor via programação dinâmica é 24
+Programação dinâmica finalizada!
+
+
+Procurando valor via BackTracking
+Melhor valor encontrado via backtracking: 24
+
+
+
+Tempo de execução do algoritmo guloso em nanossegundos = 58678700
+Tempo de execução da programação dinâmica em nanossegundos = 1973099
+Tempo de execução do backtracking em nanossegundos = 2194701
